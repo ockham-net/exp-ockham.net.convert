@@ -6,12 +6,18 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>Ockham.Net.Convert</PackageId>
+    <PackageId>Ockham.NET.Convert</PackageId>
     <Title>Ockham.NET Data Conversion Utilities</Title>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageProjectUrl></PackageProjectUrl>
     <Description>A simple and flexible API for converting primitive data types</Description>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ockham-net/exp-ockham.net.convert</PackageProjectUrl>
+
+    <RepositoryUrl>https://github.com/ockham-net/exp-ockham.net.convert.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    
+    <!--<GeneratePackageOnBuild>true</GeneratePackageOnBuild>-->
   </PropertyGroup>
 
   <PropertyGroup>
