@@ -19,5 +19,19 @@
   </PropertyGroup>
 
   <Import Project="..\..\build\assembly\Properties.csproj" />
+
+  <ItemGroup>
+    <Compile Remove="Converter\**" />
+    <EmbeddedResource Remove="Converter\**" />
+    <None Remove="Converter\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Value.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
+  </ItemGroup>
   
 </Project>

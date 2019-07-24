@@ -36,7 +36,7 @@
     <Product>Ockham.NET</Product>
     <Company>Mallowfields LLC</Company>
     <Authors>Joshua Honig</Authors>
-    <Copyright>Copyright 2019 Mallowfields. All rights reserved.</Copyright>
+    <Copyright>Copyright 2019 Joshua Honig and contributors. All rights reserved.</Copyright>
 
     <!-- Leave this! It is overridden if built with a correct configuration -->
     <PackageVersion>invalid-package-id</PackageVersion>

@@ -1,10 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFrameworks>netcoreapp2.2;net472</TargetFrameworks>
 
     <IsPackable>false</IsPackable>
+
+    <RootNamespace>Ockham.Data.Tests</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Convert\Converter.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
